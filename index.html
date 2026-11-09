@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Cloud Cafe in Kabul. Discover coffee, sweet treats, and a cozy place to relax.">
+
+  <title>Cloud Cafe | A Little Moment of Calm</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">cloud<span>cafe.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navLinks">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#services">What We Offer</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#visit">Visit Us</a></li>
+      </ul>
+
+      <a href="#visit" class="nav-button">Find Us</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <p class="eyebrow">A LITTLE MOMENT OF CALM</p>
+
+        <h1>Good coffee.<br>Beautiful moments.</h1>
+
+        <p class="hero-description">
+          Your cozy corner in Kabul for freshly brewed coffee,
+          sweet treats, and moments worth slowing down for.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="button button-light">Explore Our Menu</a>
+          <a href="#about" class="text-link">Discover Cloud Cafe →</a>
+        </div>
+      </div>
+
+      <div class="hero-note">
+        <span>01 / 03</span>
+        <span>Made for slow mornings</span>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>GOOD COFFEE</span>
+        <span>✳</span>
+        <span>SWEET MOMENTS</span>
+        <span>✳</span>
+        <span>WARM WELCOMES</span>
+        <span>✳</span>
+        <span>GOOD COFFEE</span>
+        <span>✳</span>
+        <span>SWEET MOMENTS</span>
+        <span>✳</span>
+        <span>WARM WELCOMES</span>
+        <span>✳</span>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="about section container" id="about">
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=85"
+          alt="Freshly prepared coffee in a cozy cafe">
+        <div class="image-label">A place to slow down.</div>
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow">A WARM WELCOME</p>
+
+        <h2>More than coffee.<br>A feeling.</h2>
+
+        <p>
+          At Cloud Cafe, we believe the best moments are often the
+          simplest ones. A comforting cup of coffee, a favorite
+          dessert, and good company can make an ordinary day special.
+        </p>
+
+        <p>
+          Whether you're meeting a friend, taking a little break,
+          or enjoying a quiet moment, there's a place for you here.
+        </p>
+
+        <a href="#visit" class="button button-dark">Come Say Hello</a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">THE CLOUD CAFE EXPERIENCE</p>
+          <h2>Little things we love.</h2>
+          <p>Everything you need for a lovely cafe moment.</p>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <!-- JavaScript adds service cards here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured statement -->
+    <section class="statement">
+      <div class="statement-content container">
+        <p class="eyebrow">TAKE A BREATH. TAKE A SIP.</p>
+        <h2>Make room for<br>the little joys.</h2>
+        <a href="#menu" class="button button-light">See What's Brewing</a>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu-section section container" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">MADE FOR YOUR MOMENTS</p>
+        <h2>A taste of Cloud Cafe.</h2>
+        <p>A little something for every kind of craving.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85"
+            alt="Fresh latte coffee">
+          <div class="menu-card-content">
+            <span class="menu-category">COFFEE</span>
+            <h3>Classic Latte</h3>
+            <p>Espresso with smooth, steamed milk.</p>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=85"
+            alt="Cup of cappuccino">
+          <div class="menu-card-content">
+            <span class="menu-category">COFFEE</span>
+            <h3>Velvet Cappuccino</h3>
+            <p>A comforting coffee with a creamy finish.</p>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85"
+            alt="Chocolate cake">
+          <div class="menu-card-content">
+            <span class="menu-category">SWEET TREATS</span>
+            <h3>Chocolate Cake</h3>
+            <p>A rich and chocolatey treat for your day.</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="menu-note">
+        Menu items are examples. Update them to match what Cloud Cafe serves.
+      </p>
+    </section>
+
+    <!-- Visit -->
+    <section class="visit section" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-content">
+          <p class="eyebrow">YOUR TABLE IS WAITING</p>
+          <h2>Let's make<br>your day sweeter.</h2>
+
+          <p>
+            Looking for a cozy place to enjoy your coffee?
+            We'd love to welcome you to Cloud Cafe.
+          </p>
+
+          <div class="contact-details">
+            <div>
+              <span>LOCATION</span>
+              <p>Kabul, Afghanistan</p>
+            </div>
+
+            <div>
+              <span>ADDRESS</span>
+              <p>KABUL, AFGHANISTAN.</p>
+            </div>
+
+            <div>
+              <span>OPENING HOURS</span>
+              <p>6AM-10PM.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <p class="eyebrow">SAY HELLO</p>
+          <h3>We'd love to hear from you.</h3>
+
+          <form id="contactForm">
+            <label for="name">Your name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required>
+
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required>
+
+            <label for="message">Your message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Write us a message..."
+              required></textarea>
+
+            <button type="submit" class="button button-dark">
+              Send Message →
+            </button>
+
+            <p id="formMessage" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo footer-logo">cloud<span>cafe.</span></a>
+
+      <p>A little coffee, a little comfort, a lot of love.</p>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Cloud Cafe. All rights reserved.</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
